@@ -2,7 +2,7 @@
   <footer class="site-footer">
     <span>{{ siteName }}</span>
     <span class="footer-dot" aria-hidden="true"></span>
-    <a href="https://github.com/Aethersailor/subweb" target="_blank" rel="noopener noreferrer">Aethersailor/subweb</a>
+    <a href="https://github.com/Ozero-top/subweb/" target="_blank" rel="noopener noreferrer">基于Aethersailor/subweb修改</a>
     <template v-if="shortRevision !== 'local'">
       <span class="footer-dot" aria-hidden="true"></span>
       <a v-if="revisionUrl" :href="revisionUrl" target="_blank" rel="noopener noreferrer">版本 {{ shortRevision }}</a>
