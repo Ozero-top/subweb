@@ -15,6 +15,10 @@ const DEFAULT_API_BACKENDS = [
 
 const DEFAULT_REMOTE_CONFIG_OPTIONS = [
   {
+    value: 'https://raw.githubusercontent.com/Ozero-top/OpenClash-Config/refs/heads/main/Clash/config/Full-Featured-Optimization.ini',
+    text: 'Full-Featured-Optimization （全功能优化版）',
+  },
+  {
     value: 'https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini',
     text: 'ACL4SSR Online',
   },
