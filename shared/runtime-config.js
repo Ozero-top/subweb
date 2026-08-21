@@ -88,6 +88,16 @@ const DEFAULT_MENU_ITEMS = [
     link: 'https://clash.ovitor.asia/',
     target: '_blank',
   },
+  {
+    title: '泄漏检测',
+    link: 'https://leak.ozero.asia/',
+    target: '_blank',
+  },
+  {
+    title: '机场推荐',
+    link: 'https://ozero.top/dl/',
+    target: '_blank',
+  },
 ];
 
 export const DEFAULT_RUNTIME_CONFIG = Object.freeze({
