@@ -99,7 +99,7 @@ const DEFAULT_MENU_ITEMS = [
   },
   {
     title: '机场推荐',
-    link: 'https://sub.ozero.asia/',
+    link: 'https://acting.ovitor.asia/',
     target: '_blank',
   },
 ];
