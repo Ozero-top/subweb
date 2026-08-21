@@ -4,8 +4,12 @@ const DEFAULT_API_BACKENDS = [
     url: 'https://api.ozero.top',
   },
   {
-    name: '官方公共服务（订阅内容会发送至此）',
+    name: 'asailor官方公共服务（订阅内容会发送至此）',
     url: 'https://api.asailor.org',
+  },
+  {
+    name: '备用公共服务（订阅内容会发送至此）',
+    url: 'http://api.wcc.best/',
   },
 ];
 
