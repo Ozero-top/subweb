@@ -22,6 +22,63 @@ const DEFAULT_REMOTE_CONFIG_OPTIONS = [
     value: 'https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full.ini',
     text: 'ACL4SSR Online Full',
   },
+  {
+    value: 'https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_AdblockPlus.ini',
+    text: '默认（自动测速）',
+  },
+  {
+    value: 'https://raw.githubusercontent.com/youshandefeiyang/webcdn/main/SONY.ini',
+    text: '默认（索尼电视专用）',
+  },
+  {
+    value: 'https://gist.githubusercontent.com/tindy2013/1fa08640a9088ac8652dbd40c5d2715b/raw/default_with_clash_adg.yml',
+    text: '默认（附带用于 Clash 的 AdGuard DNS）',
+  },
+  {
+    value: 'https://raw.githubusercontent.com/WC-Dream/ACL4SSR/WD/Clash/config/ACL4SSR_Online_Full_Dream.ini',
+    text: 'ACL_全分组 Dream修改版',
+  },
+  {
+    value: 'https://raw.githubusercontent.com/WC-Dream/ACL4SSR/WD/Clash/config/ACL4SSR_Mini_Dream.ini',
+    text: 'ACL_精简分组 Dream修改版',
+  },
+  {
+    value: 'https://raw.githubusercontent.com/justdoiting/ClashRule/main/GeneralClashRule.ini',
+    text: 'emby-TikTok-流媒体分组-去广告加强版',
+  },
+  {
+    value: 'https://raw.githubusercontent.com/cutethotw/ClashRule/main/GeneralClashRule.ini',
+    text: '流媒体通用分组',
+  },
+  {
+    value: 'https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online.ini',
+    text: 'Online 默认版 识别港美地区(与Github同步)',
+  },
+  {
+    value: 'https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online_MultiCountry.ini',
+    text: 'Online_MultiCountry 识别港美地区 负载均衡(与Github同步)',
+  },
+  {
+    value: 'https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online_MultiCountry_CF.ini',
+    text: 'Online_MultiCountry_CF 识别港美地区、CloudFlareCDN 负载均衡 Worker节点专用(与Github同步)',
+  },
+  {
+    value: 'https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online_Full.ini',
+    text: 'Online_Full 识别多地区分组(与Github同步)',
+  },
+  {
+    value: 'https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online_Full_CF.ini',
+    text: 'Online_Full_CF 识别多地区、CloudFlareCDN 分组 Worker节点专用(与Github同步)',
+  },
+  {
+    value: 'https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online_Full_MultiMode.ini',
+    text: 'Online_Full_MultiMode 识别多地区 负载均衡(与Github同步)',
+  },
+  {
+    value: 'https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online_Full_MultiMode_CF.ini',
+    text: 'Online_Full_MultiMode_CF 识别多地区、CloudFlareCDN 负载均衡 Worker节点专用(与Github同步)',
+  },
+  
 ];
 
 const DEFAULT_MENU_ITEMS = [
