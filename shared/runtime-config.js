@@ -27,8 +27,8 @@ const DEFAULT_REMOTE_CONFIG_OPTIONS = [
 const DEFAULT_MENU_ITEMS = [
   { title: '首页', link: '/', target: '' },
   {
-    title: 'GitHub',
-    link: 'https://github.com/Aethersailor/subweb',
+    title: 'CLASH链式代理在线生成',
+    link: 'https://clash.ovitor.asia/',
     target: '_blank',
   },
 ];
