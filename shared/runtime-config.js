@@ -1,6 +1,6 @@
 const DEFAULT_API_BACKENDS = [
   {
-    name: '本站后端服务（订阅内容会发送至此）',
+    name: '本站后端服务器（订阅内容会发送至此）',
     url: 'https://api.ozero.top',
   },
   {
