@@ -1,11 +1,27 @@
 const DEFAULT_API_BACKENDS = [
   {
-    name: '本站后端服务器（订阅内容会发送至此）',
+    name: '本站提供-负载均衡后端（订阅内容会发送至此）',
     url: 'https://api.ozero.top',
   },
   {
-    name: 'asailor官方公共服务（订阅内容会发送至此）',
+    name: 'asailor提供-负载后端（订阅内容会发送至此）',
     url: 'https://api.asailor.org',
+  },
+  {
+    name: 'CM提供-负载均衡后端（订阅内容会发送至此）',
+    url: 'https://subapi.cmliussss.net',
+  },
+  {
+    name: 'CM提供-应急备用后端（订阅内容会发送至此）',
+    url: 'https://subapi.fxxk.dedyn.io',
+  },
+  {
+    name: '肥羊提供-增强型后端（订阅内容会发送至此）',
+    url: 'https://url.v1.mk',
+  },
+  {
+    name: '肥羊提供-备用后端（订阅内容会发送至此）',
+    url: 'https://api.v1.mk',
   },
   {
     name: '备用公共服务（订阅内容会发送至此）',
@@ -16,7 +32,7 @@ const DEFAULT_API_BACKENDS = [
 const DEFAULT_REMOTE_CONFIG_OPTIONS = [
   {
     value: 'https://raw.githubusercontent.com/Ozero-top/OpenClash-Config/refs/heads/main/Clash/config/Full-Featured-Optimization.ini',
-    text: 'Full-Featured-Optimization （全功能优化版）',
+    text: '默认Full-Featured-Optimization（全功能优化版）',
   },
   {
     value: 'https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini',
@@ -100,6 +116,11 @@ const DEFAULT_MENU_ITEMS = [
   {
     title: '机场推荐',
     link: 'https://acting.ovitor.asia/',
+    target: '_blank',
+  },
+  {
+    title: '备用订阅转换',
+    link: 'https://subs.ozero.asia/',
     target: '_blank',
   },
 ];
