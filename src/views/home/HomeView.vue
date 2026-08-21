@@ -1,7 +1,7 @@
 <template>
   <section class="home-page">
     <div class="hero">
-      <div class="status-pill">SubConverter-compatible frontend</div>
+      <div class="status-pill">兼容 SubConverter 的前端</div>
       <h1>Subconverter <span>订阅转换</span></h1>
       <p>将订阅或节点转换为 Clash、Surge、Quantumult X、V2Ray 等常用客户端格式。</p>
     </div>
