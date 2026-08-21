@@ -39,7 +39,7 @@
       </div>
 
       <div class="field">
-        <label for="api">后端服务</label>
+        <label for="api">后端服务（可使用自定义后端地址）</label>
         <div class="select-wrap">
           <select id="api" v-model="backendSelection" @change="selectApi">
             <option v-for="option in backendOptions" :key="`${option.name}-${option.url}`" :value="option.url">
