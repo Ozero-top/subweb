@@ -31,7 +31,7 @@ const DEFAULT_API_BACKENDS = [
 
 const DEFAULT_REMOTE_CONFIG_OPTIONS = [
   {
-    value: 'https://raw.githubusercontent.com/Ozero-top/OpenClash-Config/refs/heads/main/Clash/config/Full-Featured-Optimization.ini',
+    value: 'https://raw.githubusercontent.com/Ozero-top/OpenClash-Config/refs/heads/main/subweb/ini/Clash_Online.ini',
     text: '默认Full-Featured-Optimization（全功能优化版）',
   },
   {
