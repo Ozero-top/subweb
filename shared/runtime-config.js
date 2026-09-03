@@ -4,8 +4,8 @@ const DEFAULT_API_BACKENDS = [
     url: 'https://api.ozero.top',
   },
   {
-    name: 'asailor提供-负载后端（订阅内容会发送至此）',
-    url: 'https://api.asailor.org',
+    name: '公共服务-负载后端（订阅内容会发送至此）',
+    url: 'https://sub.xeton.dev',
   },
   {
     name: 'CM提供-负载均衡后端（订阅内容会发送至此）',
